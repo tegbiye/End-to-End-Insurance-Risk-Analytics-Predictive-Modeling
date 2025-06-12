@@ -1,0 +1,5 @@
+.insenv
+data/
+.ipynbs_checkpoints/
+.vscode/
+.csv
