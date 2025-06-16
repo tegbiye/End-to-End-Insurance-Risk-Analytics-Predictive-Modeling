@@ -3,3 +3,4 @@ data/
 .ipynbs_checkpoints/
 .vscode/
 .csv
+.end2endenv

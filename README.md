@@ -6,6 +6,7 @@
 ## Project Structure
 
 <pre>
+|-----.env/
 |---- .github/
 |     |--- workflows
 |     |    |--- unittests.yml
