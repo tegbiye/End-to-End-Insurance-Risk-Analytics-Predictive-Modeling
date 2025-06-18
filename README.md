@@ -19,10 +19,12 @@
 |     |--- README.md
 |     |--- cleaning_insurance_risk_analytics.ipynb
 |     |--- eda_insurance_risk_analytics.ipynb
+|     |--- statistical_hypotesis_Testing.ipynb
 |---- scripts/
 |     |--- __init__.py
 |     |--- load_data.py
 |     |--- monthly_trend.py
+|     |--- statistical_hyphothesis.py (function for hyphotessis testing)
 |---- tests/
 |     |--- __init__.py
 |     |--- test_1.py
@@ -64,6 +66,9 @@
        ```
        dvc add data/cleaned_insurance_data.csv
        ```   
+## Task 3
+   1. Made A/B-Hypothesis Testing using chi-square, ANOVa where threshold p = 0.05
+      Based on the p-value calculated the hypothesis is rejected or failed
 ## Getting Started
 1. Clone the Repository
    ``` 
