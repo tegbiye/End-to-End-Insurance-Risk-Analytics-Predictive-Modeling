@@ -39,7 +39,8 @@
 
 ## Getting Started
 1. Clone the Repository
-   ``` git clone https://github.com/tegbiye/End-to-End-Insurance-Risk-Analytics-Predictive-Modeling.git
+   ``` 
+   git clone https://github.com/tegbiye/End-to-End-Insurance-Risk-Analytics-Predictive-Modeling.git
    
    ```
    ```
@@ -48,11 +49,14 @@
 2. Create environment
    ```
    python -m venv .venv
-
-   ```Windows
+   
+   ```
+   Windows
+   ```
    .venv\Scripts\activate
    ```
-   ```Linux/Mac
+   Linux/Mac
+   ```
    source .venv\bin\activate
    ```
 3. Install dependencies
