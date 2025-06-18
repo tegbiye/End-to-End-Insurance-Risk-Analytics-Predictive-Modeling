@@ -36,7 +36,28 @@
    2. Data Quality Assesment
       Checked for the missing values and found some significant amount of missing values fixed
    3. Made Visualization
-
+## Task 2
+   1. After checking out to the task-2 branch Installed and Intialized dvc
+      ```
+      pip install dvc
+      ```
+      ```
+      dvc init
+      ```
+      ```
+      git add .dvc .dvcignore
+      ```
+    2. Configured local and remote using dvc and tracked the cleaned data
+       N.B. Make the path your own (/path/to/local/dvc-storage other than .dvc folder)
+       ```mkdir /path/to/local/dvc-storage
+       ```
+       ```
+       dvc remote add -d localstorage /path/to/local/dvc-storage
+       ```
+       Just add cleaned_data to the dvc track
+       ```
+       dvc add data/cleaned_insurance_data.csv
+       ```   
 ## Getting Started
 1. Clone the Repository
    ``` 
