@@ -1,9 +1,9 @@
 .insenv
-data/
 .ipynbs_checkpoints/
 __pycache__/
 *.pyc
 .vscode/
-.csv
+data/*.csv
 .end2endenv
 .vscode/
+data/*.txt
