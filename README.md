@@ -50,7 +50,7 @@
       ```
       git add .dvc .dvcignore
       ```
-    2. Configured local and remote using dvc and tracked the cleaned data
+   2. Configured local and remote using dvc and tracked the cleaned data
        N.B. Make the path your own (/path/to/local/dvc-storage other than .dvc folder)
 
        ```
