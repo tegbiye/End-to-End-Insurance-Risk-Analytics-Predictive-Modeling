@@ -67,6 +67,7 @@
 
        ```
        dvc add data/cleaned_insurance_data.csv
+       ```   
        ```
        Commited different version of data
        ```
