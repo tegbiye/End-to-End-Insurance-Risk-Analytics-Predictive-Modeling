@@ -54,10 +54,12 @@
       ```
    2. Configured local and remote using dvc and tracked the cleaned data
        N.B. Make the path your own (/path/to/local/dvc-storage other than .dvc folder)
+       I created folder for the local storage
 
        ```
        mkdir /path/to/local/dvc-storage
        ```
+       Then I created the storage as a DVC Remote
        ```
        dvc remote add -d localstorage /path/to/local/dvc-storage
        ```
@@ -66,6 +68,19 @@
        ```
        dvc add data/cleaned_insurance_data.csv
        ```   
+       ```
+       Commited different version of data
+       ```
+       dvc add data/cleaned_insurance_data_sample.csv
+       ```
+       ```
+       git add data/cleaned_insurance_data_sample.csv.dvc
+       git commit -m "Added another version data"
+       ```
+       Push Data to Remote
+       ```
+       dvc push
+       ```
 ## Task 3
    1. Made A/B-Hypothesis Testing using chi-square, ANOVa where threshold p = 0.05
       Based on the p-value calculated the hypothesis is rejected or failed
