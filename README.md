@@ -20,6 +20,7 @@
 |     |--- cleaning_insurance_risk_analytics.ipynb
 |     |--- eda_insurance_risk_analytics.ipynb
 |     |--- statistical_hypotesis_Testing.ipynb
+|     |--- Build_model_pipeline.ipynb (Model building pipeline)
 |---- scripts/
 |     |--- __init__.py
 |     |--- load_data.py
@@ -69,6 +70,35 @@
 ## Task 3
    1. Made A/B-Hypothesis Testing using chi-square, ANOVa where threshold p = 0.05
       Based on the p-value calculated the hypothesis is rejected or failed
+
+## Task 4: Building and Evaluating Predictive model for Dynamic, Risk-Based Pricing System
+1. Data Preparation (Conceptual & Code Structure)
+   Handling Missing Data
+   Feature Engineering
+   Encoding Categorical Data
+   Train-Test Split
+
+2. Modeling Goals & Evaluation Metrics
+   Claim Severity Prediction (Regression)
+   Probability of Claim Occurrence (Classification)
+   Premium Optimization (Conceptual - combining the above)
+
+3. Statistical Modeling Techniques
+   Linear Regression
+   Decision Trees (Implicitly covered by Random Forests/XGBoost, but can be a baseline)
+   Random Forests
+   Gradient Boosting Machines (XGBoost)
+
+4. Model Building 
+
+5. Model Evaluation (Code Structure for Each Model and Goal)
+   RMSE & R-squared for Regression
+   Accuracy, Precision, Recall, F1-score for Classification
+
+6. Feature Importance Analysis (Code Structure)
+   Built-in feature importance
+   SHAP
+
 ## Getting Started
 1. Clone the Repository
    ``` 
